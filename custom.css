@@ -228,7 +228,8 @@ ts-jumper input[type="text"],
 
 /*broken*/
 li.active[class] span,
-#channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action .prefix,
+#channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action .
+fix,
 #channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action,
 #channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action.im_name > *:not(.unread_highlights) {
    color: var(--text-special) !important;
@@ -395,7 +396,6 @@ ts-message .action_hover_container .btn_msg_action,
    border-color: var(--border-dim);
 }
 
-pre,
 ts-message .action_hover_container .btn_msg_action,
 .file_container .CodeMirror .CodeMirror-code>div pre, .file_container .CodeMirror .sssh-line pre, .file_container .sssh-code .CodeMirror-code>div pre, .file_container .sssh-code .sssh-line pre,
 .search_message_result .search_message_result_meta a,
