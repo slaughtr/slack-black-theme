@@ -1693,3 +1693,5 @@ ts-jumper .p-jumper__help {
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name {
 	color: var(--primary) !important;
 }
+
+pre { color: white !important; }
